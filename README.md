@@ -1,2 +1,2 @@
-# Skurrol
-Skurrol is a multifunctional bot with many features like moderation, music &amp; more!
+## To do:
+- Update to aoi.js@5.0.1 (requires NodeJS >16)

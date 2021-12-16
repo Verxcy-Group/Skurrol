@@ -1,0 +1,18 @@
+{
+  "name": "skurrol_discord_bot",
+  "version": "1.0.0",
+  "description": "A Multi Purpose Discord Bot",
+  "main": "skurrol.js",
+  "scripts": {
+    "start": "node skurrol.js",
+    "dev": "nodemon skurrol.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "ByCRXHIT",
+  "license": "LSC",
+  "dependencies": {
+    "aoi.js": "^4.4.4"
+  }
+}
