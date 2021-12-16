@@ -10,8 +10,8 @@
   "engines": {
     "node": "12.x"
   },
-  "author": "ByCRXHIT",
-  "license": "LSC",
+  "author": "byCRXHIT",
+  "license": "MIT",
   "dependencies": {
     "aoi.js": "^4.4.4"
   }
