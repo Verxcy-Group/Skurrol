@@ -1,8 +1,8 @@
 //skidded from https://paste.gg/p/Leaf-Yt/b521c9518bf24b30b847cab079ed8482
 module.exports = {
-    name: "giveaway-start",
+    name: "giveaway",
     aliases: "start",
-    usage: "giveaway-start [channel | duration | winners | prize]",
+    usage: "giveaway [channel | duration | winners | prize]",
     description: "Starts a giveaway",
     category: 'Giveaway',
     code: `$djsEval[(async () => {
