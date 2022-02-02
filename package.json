@@ -4,8 +4,7 @@
   "description": "A Multi Purpose Discord Bot",
   "main": "skurrol.js",
   "scripts": {
-    "start": "node skurrol.js",
-    "dev": "nodemon skurrol.js"
+    "start": "node skurrol.js"
   },
   "engines": {
     "node": "12.x"
