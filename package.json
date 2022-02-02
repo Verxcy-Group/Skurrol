@@ -10,7 +10,7 @@
   "engines": {
     "node": "12.x"
   },
-  "author": "byCRXHIT",
+  "author": "VerxcyDev",
   "license": "MIT",
   "dependencies": {
     "aoi.js": "^4.4.4",
