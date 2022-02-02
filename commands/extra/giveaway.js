@@ -15,13 +15,13 @@ let giveawayNumberWinners = args[2];
 let giveawayPrize = args.slice(3).join(' ');
 
 if (!giveawayChannel) {
-    return message.channel.send('🛑 You have to mention a valid channel, Usage: \`$getservervar[prefix]giveaway-start [channel | duration | winners | prize]\`');
+    return message.channel.send('🛑 You have to mention a valid channel, Usage: \`+giveaway [channel | duration | winners | prize]\`');
 } else if (!giveawayDuration || isNaN(ms(giveawayDuration))) {
-    return message.channel.send('🛑 You have to specify a valid duration, Usage: \`$getservervar[prefix]giveaway-start [channel | duration | winners | prize]\`');
+    return message.channel.send('🛑 You have to specify a valid duration, Usage: \`+giveaway-start [channel | duration | winners | prize]\`');
 } else if(isNaN(giveawayNumberWinners) || giveawayNumberWinners > 50 || giveawayNumberWinners < 1){
-    return message.channel.send('🛑 You have to specify a valid number of winners min: 1 max: 50, Usage: \`$getservervar[prefix]giveaway-start [channel | duration | winners | prize]\`');
+    return message.channel.send('🛑 You have to specify a valid number of winners min: 1 max: 50, Usage: \`+giveaway-start [channel | duration | winners | prize]\`');
 } else if (!giveawayPrize) {
-    return message.channel.send('🛑 You have to specify a valid prize, Usage: \`$getservervar[prefix]giveaway-start [channel | duration | winners | prize]\`');
+    return message.channel.send('🛑 You have to specify a valid prize, Usage: \`+giveaway-start [channel | duration | winners | prize]\`');
 } else if (giveawayPrize.length > 100) { 
     giveawayPrize = giveawayPrize.slice(0, 50) + '...';
 }
