@@ -1,6 +1,17 @@
 const Aoijs = require("aoi.js")
 const config = require('./config.json')
 
+const { GiveawaysManager } = require('discord-giveaways');
+bot.giveawaysManager = new GiveawaysManager(bot, {
+    storage: "./giveaways.json",	
+    default: {
+        botsCanWin: false,
+        embedColor: "#1793ff",
+        embedColorEnd: "#EE3C23",
+        reaction: "🎁"
+    }
+})
+
 const bot = new Aoijs.Bot({
     token: config.token, 
     prefix: ["?", "!"]
