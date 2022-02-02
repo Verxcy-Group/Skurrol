@@ -18,7 +18,6 @@ const bot = new Aoijs.Bot({
 })
 
 //JOIN THE DISCORD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-//https://skurrol.tk/invite!=discord
 
 bot.variables({
     playing: "0",
