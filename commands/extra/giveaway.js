@@ -2,7 +2,7 @@
 module.exports = {
     name: "giveaway",
     aliases: "start",
-    usage: "giveaway [channel | duration | winners | prize]",
+    usage: "+giveaway [channel | duration | winners | prize]",
     description: "Starts a giveaway",
     category: 'Giveaway',
     code: `$djsEval[(async () => {
