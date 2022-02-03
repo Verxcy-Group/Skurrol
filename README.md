@@ -5,7 +5,7 @@
 + [ZIP of Skurrol](https://github.com/Verxcy-Development-Inc/Skurrol/archive/refs/heads/main.zip)
 #### Install and use:
 + Extract the Zip and go into it.
-+ Now put your bot token in the config.json at "BOT_TOKEN"
++ Now put your bot token in the config.json at "BOT_TOKEN". Also if you want you can change the prefix there.
 + After that press shift + rightclick in the folder and click "Open PowerShell window here".
 + Now Run ``npm i`` to install all dependencies.
 + And then run ``node .`` and the bot should be runnning now!
@@ -18,7 +18,7 @@
 + Open the terminal in the path of the zip.
 + Extract it using ``unzip -r Skurrol-main.zip skurrol``
 + Go into the Skurrol Folder
-+ Now put your bot token in the config.json at "BOT_TOKEN" 
++ Now put your bot token in the config.json at "BOT_TOKEN". Also if you want you can change the prefix there.
 + After that run ``npm i`` to install all dependencies.
 + And then run ``node .`` and the bot should be runnning now!
 
