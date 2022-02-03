@@ -6,7 +6,7 @@
 #### Install and use:
 + Extract the Zip and go into it.
 + Now put your bot token in the config.json at "BOT_TOKEN"
-+ After that press shift + rightclick in the folder and click "Open Powershell here".
++ After that press shift + rightclick in the folder and click "Open PowerShell window here".
 + Now Run ``npm i`` to install all dependencies.
 + And then run ``node .`` and the bot should be runnning now!
 
