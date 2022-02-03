@@ -14,10 +14,8 @@ bot.giveawaysManager = new GiveawaysManager(bot, {
 
 const bot = new Aoijs.Bot({
     token: config.token, 
-    prefix: ["?", "!"]
+    prefix: config.prefix
 })
-
-//JOIN THE DISCORD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 bot.variables({
     playing: "0",
@@ -34,8 +32,8 @@ bot.variables({
     //Put in here the channel id where the bot should log things
     logChannel: "",
     mute: "1",
-    //Put here your api key from apivoid.com but you could also use our ones :)
-    apikeys: "179bdf909f9fa1e347e169af3e070d08564f02de;7d2b2fc35a883ec31d137bd56c7c33c699ebb11b;cfcf6a5fc8273a4985c000f080d86a77962d96eb"
+    //Put here your api key from apivoid.com
+    apikeys: "KEY1;KEY2"
 })
 
 bot.status({
@@ -46,7 +44,7 @@ bot.status({
 })
 
 bot.status({
-    text: "against MEE6",
+    text: "against MEE6 ;D",
     type: "COMPETING",
     status: "idle",
     time: 10
@@ -69,18 +67,12 @@ bot.onRateLimit()
 bot.readyCommand({
     channel: "$getVar[logChannel]",
     code: `
-    $description[Succesfully Restarted bot!
-    Connected to Web Socket.
-    Connected to API's:
-    [byCRXHIT Network](http://bycrxhit.de)
-    [MC Head Database](https://mc-heads.net)]
+    $color[GREEN]
+    $description[Succesfully Restarted bot!]
     `
 })
 
-/*
-    Callbacks for Snipe Function
-*/
-
+/* Callbacks for Snipe Function */
 bot.updateCommand({
     channel: "$channelID",
     code: `
@@ -101,30 +93,5 @@ bot.deletedCommand({
 });
 bot.onMessageDelete()
 
-/*
-    Callback for music
-*/
-
-bot.musicEndCommand({
-    channel: "$channelID",
-    code: `
-    $title[Stopped Song]
-    $description[Nothing to play in the queue anymore. Leaving voice channel.]
-    $color[RED]
-    `
-})
-
-bot.musicStartCommand({
-    channel: "$channelID",
-    code: `
-    $title[Playing Song]
-    $description[Playing: **$songInfo[title]**
-    Lenght: **$songInfo[duration] Minutes**
-    Uploaded by: **$songInfo[publisher]**]
-    $color[GREEN]
-    $thumbnail[$songInfo[thumbnail]]
-    `
-})
-
 bot.onMessage() // Allows Commands to Executed
-bot.loadCommands(`./commands/`) //Allows Commands executed by `commands` folder
+bot.loadCommands(`./commands/`) //Allows Commands executed from the "commands" folder
