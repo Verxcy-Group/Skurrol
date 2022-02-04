@@ -34,5 +34,4 @@ module.exports = [{
 
     🔨 **Bans:**
     $banCount Bans]`
-}
 }]
