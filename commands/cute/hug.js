@@ -12,5 +12,5 @@ module.exports = {
 	$cooldown[5s;Wait %time%. This cooldown is due to not get api rate limited. Again.]
     $color[RANDOM]
     $endIf
-	$argsCheck[1;Usage: !hug @user]`
+	$argsCheck[1;Usage: +hug @user]`
 }
