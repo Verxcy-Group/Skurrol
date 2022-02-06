@@ -9,7 +9,7 @@ module.exports = {
 🔨 **__Moderation__**
 +ban
 +kick
-+clear [number]
++clear <number>
 +nuke
 
 🔇 **__Mute__**
@@ -23,20 +23,20 @@ module.exports = {
 +howgay
 +howsimp
 +amogus
-+mchead [Minecraft Ign]
++mchead <Minecraft Ign>
 +wasted @user
 +comment
-+pokedex [name of pokemon]
++pokedex <name of pokemon>
 +hack @user
 
 ✨ **__Extra__**
-+base64 [text]
++base64 <text>
 +snipe
-+quote [Message Link]
++quote <Message Link>
 +editsnipe
 +serverinfo
 +hug @user
-+giveaway [channel | duration | winners | prize]
++giveaway <channel | duration | winners | prize>
 
 👉 👈 **__Cute__**
 +fox
