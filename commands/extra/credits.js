@@ -11,6 +11,7 @@ module.exports = [{
         [Verxcy Network](https://api.verxcydev.net)
         [MC Head Database](https://mc-heads.net)
         [Website Status Checker](https://apivoid.com)
+        [Some Random API](https://some-random-api.ml)
 
         **Art:**
         Dennis Dalinger
