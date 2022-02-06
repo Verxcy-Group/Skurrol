@@ -1,6 +1,7 @@
 module.exports = {
     name: 'hug',
-    code: `$if[$isMentioned[$authorID]==true]
+    code: `
+    $if[$isMentioned[$authorID]==true]
 	You can't hug yourself! sowwy :'(
 	$elseIf[$message[1]==$nickname[$authorID]]
 	You can't hug yourself! sowwy :'(
@@ -12,5 +13,6 @@ module.exports = {
 	$cooldown[5s;Wait %time%. This cooldown is due to not get api rate limited. Again.]
     $color[RANDOM]
     $endIf
-	$argsCheck[1;Usage: +hug @user]`
+	$argsCheck[1;Usage: +hug @user]
+	`
 }
