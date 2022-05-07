@@ -32,6 +32,7 @@ Example:
 + After that run ``npm i`` to install all dependencies.
 + And then run ``node .`` and the bot should be runnning now!
 
-# <ins>Change Log:</ins>
+# <ins>INFO:</ins>
 Added:
-+ Giveaway Command
++ We are not going to update to Aoi.JS Version 5 or 6!
++ The bot will probably still be maintained.
