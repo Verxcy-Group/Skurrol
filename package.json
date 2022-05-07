@@ -1,7 +1,7 @@
 {
-  "name": "example-discord-bot",
+  "name": "skurrol",
   "version": "1.0.0",
-  "description": "Description about the Bot",
+  "description": "Skurrol is a multipurpose discord bot!",
   "main": "skurrol.js",
   "scripts": {
     "start": "node skurrol.js"
@@ -12,7 +12,7 @@
   "author": "YourUserName",
   "license": "MIT",
   "dependencies": {
-    "aoi.js": "^4.4.4",
+    "aoi.js": "^4.6.0",
     "discord-giveaways": "^5.1.0"
   }
 }
