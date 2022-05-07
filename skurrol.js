@@ -21,8 +21,6 @@ bot.variables({
     playing: "0",
     prefix: "+",
     queue: "0",
-    //Put here your UserID
-    owner: "",
     snipe_msg: "",
     snipe_author: "",
     snipe_channel: "",
