@@ -65,11 +65,15 @@ Abuse Detected!
 bot.onRateLimit()
 
 bot.readyCommand({
-    channel: "$getVar[logChannel]",
-    code: `
-    $color[GREEN]
-    $description[Succesfully Restarted bot!]
-    `
+  channel: '',
+  code: `$log[
+  ─━━━━━━━Ready Command Code━━━━━━━━━━━─
+  Client: $userTag[$clientID]
+  Ping: $ping ms
+  Bot Creator: $username[$botOwnerID]#$discriminator[$botOwnerID]
+  Commands loaded: $commandsCount
+  ─━━━Created by Verxcy Development━━━━─
+  ]`
 })
 
 /* Callbacks for Snipe Function */
