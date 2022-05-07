@@ -12,6 +12,6 @@ module.exports = [{
     $color[RANDOM]`
 }]
 /*
-* All i can say to this command explained by 1 video:
+* This command explained by 1 Video:
 * https://cdn.discordapp.com/attachments/790891906569076736/833787326982651914/video0-204.mp4
 */

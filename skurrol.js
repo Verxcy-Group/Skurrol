@@ -18,8 +18,8 @@ const bot = new Aoijs.Bot({
 })
 
 bot.variables({
+    //Just Ignore - This is to make some commands work
     playing: "0",
-    prefix: "+",
     queue: "0",
     snipe_msg: "",
     snipe_author: "",
@@ -27,40 +27,44 @@ bot.variables({
     snipe_date: "",
     msgEditorID: "undefined",
     esnipeOldMsg: "undefined",
-    //Put in here the channel id where the bot should log things
-    logChannel: "",
     mute: "1",
+
+    //ID of the Channel where Skurrol should send logs
+    logChannel: "",
+    
     //Put here your api key from apivoid.com
-    apikeys: "KEY1;KEY2"
+    //Used by the +status command. You can deactivate/remove it if you don't need it.
+    apikeys: "API_KEY"
 })
 
 bot.status({
-    text: "Just vibin'",
+    text: "Bot Status1",
     type: "STREAMING",
     url: "https://twitch.tv/real_bycrxhit",
     time: 10
 })
 
 bot.status({
-    text: "against MEE6 ;D",
+    text: "Bot Status2",
     type: "COMPETING",
     status: "idle",
     time: 10
 })
 
 bot.rateLimitCommand({ 
-    channel: "$getVar[logChannel]",
+    channel: "",
     code: `
-> **IMPORTANT**
-Abuse Detected!
-    Timeout: $rateLimt[timeout]
-    Limit: $rateLimit[limit]
-    Method: $rateLimit[method]
-    Path: $rateLimit[path]
-    Route: $rateLimit[route]
+    $log[
+      ─━━━━━━━━━━━━━RATE LIMIT━━━━━━━━━━━━━─
+      Timeout: $rateLimt[timeout]
+      Limit: $rateLimit[limit]
+      Method: $rateLimit[method]
+      Path: $rateLimit[path]
+      Route: $rateLimit[route]
+      ─━━━Created by Verxcy Development━━━━─
     `
-})
-bot.onRateLimit()
+  })
+  bot.onRateLimit()
 
 bot.readyCommand({
   channel: '',

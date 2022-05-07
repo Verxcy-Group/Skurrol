@@ -6,6 +6,6 @@ module.exports = {
     [Jump to message]($replaceText[$replaceText[$checkContains[$message;https://discord.com/channels/;https://ptb.discord.com/channels/];true;$message];false;https://discord.com/channels/$guildID/$mentionedChannels[1;yes]/$noMentionMessage])]
     $textSplit[$message;/]
     $color[RANDOM]
-    $suppressErrors[Error 404, Message not found]
+    $suppressErrors[Couldn't find the message.]
     `
 }

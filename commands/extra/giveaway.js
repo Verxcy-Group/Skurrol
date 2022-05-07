@@ -1,4 +1,5 @@
 //skidded from https://paste.gg/p/Leaf-Yt/b521c9518bf24b30b847cab079ed8482
+//if it doesn't work, blame him, not me :)
 module.exports = {
     name: "giveaway",
     aliases: "start",

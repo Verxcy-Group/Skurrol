@@ -8,5 +8,5 @@ module.exports = {
 	Please @mention someone!
 	$endIf
 	$argsCheck[1;Usage: !wasted @user]
-	$cooldown[5s;Wait %time%. This cooldown is due to not get api rate limited. Again.]`
+	$cooldown[3s;Wait %time%. This cooldown is due to not get api rate limited. Again.]`
 }
