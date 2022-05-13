@@ -1,11 +1,10 @@
 {
   "name": "skurrol",
   "version": "1.0.0",
-  "description": "VerxcyDEV.DNS is a private Dns Service for our office",
-  "main": "index.js",
+  "description": "Skurrol is a multipurpose discord bot!",
+  "main": "skurrol.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node skurrol.js"
   },
   "engines": {
     "node": "12.x"
@@ -13,6 +12,7 @@
   "author": "Verxcy-Group",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.0"
+    "aoi.js": "^4.6.0",
+    "discord-giveaways": "^5.1.0"
   }
 }
