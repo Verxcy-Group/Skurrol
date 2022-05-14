@@ -62,19 +62,21 @@ bot.rateLimitCommand({
       Path: $rateLimit[path]
       Route: $rateLimit[route]
       ─━━━Created by Verxcy Development━━━━─
+    ]
     `
   })
   bot.onRateLimit()
 
 bot.readyCommand({
   channel: '',
-  code: `$log[
-  ─━━━━━━━Ready Command Code━━━━━━━━━━━─
-  Client: $userTag[$clientID]
-  Ping: $ping ms
-  Bot Creator: $username[$botOwnerID]#$discriminator[$botOwnerID]
-  Commands loaded: $commandsCount
-  ─━━━Created by Verxcy Development━━━━─
+  code: `
+  $log[
+      ─━━━━━━━Ready Command Code━━━━━━━━━━━─
+      Client: $userTag[$clientID]
+      Ping: $ping ms
+      Bot Creator: $username[$botOwnerID]#$discriminator[$botOwnerID]
+      Commands loaded: $commandsCount
+      ─━━━Created by Verxcy Development━━━━─
   ]`
 })
 
