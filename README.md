@@ -19,7 +19,7 @@ Example:
 
 # <ins>Linux (Ubuntu or Debian based systems)</ins>
 #### What you need:
-+ [NodeJS Version 16 or higher](https://joshtronic.com/2021/05/09/how-to-install-nodejs-16-on-ubuntu-2004-lts/) , and the UnZip Package `sudo apt install unzip`
++ [NodeJS Version 16 or higher](https://joshtronic.com/2021/05/09/how-to-install-nodejs-16-on-ubuntu-2004-lts/), and the UnZip Package `sudo apt install unzip`
 + [ZIP of Skurrol](https://github.com/Verxcy-Development-Inc/Skurrol/archive/refs/heads/main.zip)
 #### Install and use:
 + Open the terminal(`CTRL + ALT + T)` and CD To The Path The Zip Is Located in.
