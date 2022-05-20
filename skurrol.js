@@ -71,7 +71,7 @@ bot.readyCommand({
   channel: '',
   code: `
   $log[
-      ─━━━━━━━Ready Command Code━━━━━━━━━━━─
+      ─━━━━━━━━━Ready Command Code━━━━━━━━━─
       Client: $userTag[$clientID]
       Ping: $ping ms
       Bot Creator: $username[$botOwnerID]#$discriminator[$botOwnerID]
