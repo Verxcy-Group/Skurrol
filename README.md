@@ -1,4 +1,4 @@
-[![Run on Repl.it](https://repl.it/badge/github/BeyYT/Beatshape-Rest-API)](https://repl.it/github/Verxcy-Group/Skurrol)
+[![Run on Repl.it](https://repl.it/badge/github/Verxcy-Group/Skurrol)](https://repl.it/github/Verxcy-Group/Skurrol)
 
 # <ins>Windows</ins>
 #### What you need:
